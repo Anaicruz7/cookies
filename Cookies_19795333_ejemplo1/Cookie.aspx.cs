@@ -26,7 +26,7 @@ namespace Cookies_19795333_ejemplo1
             Response.Cookies["txtNumberOnOrder"].Value = txtNumberOnOrder.Text;
             Response.Cookies["txtReorderLevel"].Value = txtReorderLevel.Text;
 
-            
+            Response.Redirect("Cookie2.aspx");
 
         }
     }
